@@ -17,6 +17,7 @@ const rootReducer = combineReducers({
 // непосредственно создаём store
 // export const store = createStore(rootReducer, applyMiddleware(thunkMiddleware));
 
+// функция обертка над старым редаксом...
 export const store: any = configureStore({
     reducer: rootReducer,
     // добавляем сюда нашу санку thunkMiddleware в начало мидлвейров

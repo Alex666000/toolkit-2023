@@ -93,4 +93,11 @@ export const Todolist = React.memo(function ({demo = false, ...props}: PropsType
     </div>
 })
 
+/*
+если тут undefined ----> tasksForTodolist.map ---> значит таски в пропсах не пришли в этой строке:
+ let tasksForTodolist = props.tasks
+
+ -
+ */
+
 
