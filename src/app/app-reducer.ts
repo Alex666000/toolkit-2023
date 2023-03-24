@@ -8,6 +8,7 @@ const initialState = {
     error: null as string | null,
     isInitialized: false
 }
+export type initialStateType = typeof initialState
 
 const slice = createSlice({
     name: "app",
